@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Todos</string>
+    <string name="todos">Todos</string>
+    <string name="add_todo">Add Todo</string>
+    <string name="update_todo">Update Todo</string>
+    <string name="update">Update</string>
+    <string name="status">Status:</string>
+    <string name="delete">Delete</string>
+    <string name="no_todos">No Todos Found</string>
+    <string name="note">Note</string>
+    <string name="save">Save</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+    <string name="all">All</string>
+    <string name="search">Search</string>
+</resources>

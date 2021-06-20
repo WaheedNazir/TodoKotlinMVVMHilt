@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.todos.TodosActivity">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_all"
+        android:title="@string/all" />
+    <item
+        android:id="@+id/menu_completed"
+        android:title="@string/completed" />
+    <item
+        android:id="@+id/menu_pending"
+        android:title="@string/pending" />
+</menu>

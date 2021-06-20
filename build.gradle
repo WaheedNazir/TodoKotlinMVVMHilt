@@ -1,0 +1,63 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    // Android SDK version
+    ext.androidMinSdkVersion = 16
+    ext.androidTargetSdkVersion = 30
+    ext.androidCompileSdkVersion = 30
+
+    // Kotlin
+    ext.kotlinVersion = '1.5.10'
+    ext.ankoVersion = '0.10.4'
+
+    // Android library
+    ext.androidGradlePlugin = '4.0.1'
+    ext.supportVersion = '28.0.0'
+    ext.lifecycleVersion = "2.2.0"
+    ext.roomVersion = "2.3.0"
+
+    // Networking
+    ext.retrofitVersion = '2.9.0'
+    ext.okHttpVersion = '4.7.2'
+
+    // Glide
+    ext.glideVersion = "4.12.0"
+
+    // Dagger
+    ext.dagger_version = "2.35.1"
+
+    // Hilt
+    ext.hilt_version = "2.35"
+
+    // Testing
+    ext.jUnitVersion = '4.13.2'
+    ext.mockitoVersion = '2.8.9'
+    ext.mockitoExtensionVersion = '1.5.0'
+    ext.espressoVersion = '2.2.2'
+    ext.testRunnerVersion = '1.0.1'
+    ext.debugDbVersion = '1.0.5'
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:${androidGradlePlugin}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlinVersion"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
