@@ -15,7 +15,7 @@ A sample app to manage Todo list, Add, Delete, Update Todos. The purpose of this
  10. JetPack Libraries
 
 ### Demo
-<img height="400px" src="https://github.com/WaheedNazir/Kotlin-MVVM-Architecture/blob/master/screens/sample_demo.gif" />
+<img height="400px" src="https://github.com/WaheedNazir/TodoKotlinMVVMHilt/blob/main/screens/sample_demo.gif" />
 
 ## Architecture
 <img alt="MVVM Architecture" height="700px" src="https://github.com/WaheedNazir/Kotlin-MVVM-Architecture/blob/master/screens/Architecture_design_new.jpg" />
