@@ -1,4 +1,4 @@
-## Kotlin MVVM Architecture
+## Kotlin MVVM Architecture using Hilt
 
 A sample app to manage Todo list, Add, Delete, Update Todos. The purpose of this project to illustrate the usage of MVVM architecture design pattern that follow the best practices of Object Oriented Design Patterns using the following technology stack.
 
