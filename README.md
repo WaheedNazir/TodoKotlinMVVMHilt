@@ -31,19 +31,17 @@ A sample app to manage Todo list, Add, Delete, Update Todos. The purpose of this
 
 ### Other samples of MVVM using Kotlin
 
-* [View-ViewModel-Interaction] - Sample shows View and ViewModel Interaction/Communication.
-* [Communication-ActivityFragment-ViewModel] - Sample shows communication between Activity and Fragment using ViewModel
-* [ViewModel-ViewModel-Communication] - Sample shows communication between ViewModels
-* [LocationUpdates-LiveData-ViewModel] - Sample shows, to get location updates as LiveData in Kotlin.
-* [Kotlin-MVVM-Architecture] - Sample of complete MVVM Architecture using Dagger2, Kotlin, MediatorLiveData, Retrofit etc.
-* [Presentation Slides] - Presentation slides on this architecture sample.
+* [Currency-Converter-MVVM]: Currency converter app developed using Kotlin, MVVM, Hilt, Room, Unit Testing, Corouties.
+* [News-Android-MVVM-Kotlin-Hilt] - New York Times News sample app developed using MVVM, Kotlin, Hilt, Coroutines.
+* [Todo-App-Kotlin-MVVM-Hilt] - Todos app developed using Kotlin,MVVM, Hilt, Network Bound Resources etc.
+* [Movies-Android-MVVM-RxJava] - Movies app developed using Kotlin,MVVM, Koin and RxJava etc.
+* [Countries-News-Kotlin-MVVM]: Countries news devceloped using MVVM, Kotlin, Hilt, NetworkBoundResources, Room DB etc.
 
-   [Kotlin-MVVM-Architecture]: <https://github.com/WaheedNazir/Kotlin-MVVM-Architecture>
-   [View-ViewModel-Interaction]: <https://github.com/WaheedNazir/View-ViewModel-Interaction>
-   [ViewModel-ViewModel-Communication]: <https://github.com/WaheedNazir/ViewModel-ViewModel-Communication>
-   [Communication-ActivityFragment-ViewModel]: <https://github.com/WaheedNazir/Communication-ActivityFragment-ViewModel>
-   [LocationUpdates-LiveData-ViewModel]: <https://github.com/WaheedNazir/LocationUpdates-LiveData-ViewModel>
-   [Presentation Slides]: <https://github.com/WaheedNazir/Kotlin-MVVM-Architecture/blob/master/Presentation_WaheedNazir_FINAL.pdf>
+   [Countries-News-Kotlin-MVVM]: <https://github.com/WaheedNazir/Kotlin-MVVM-Architecture>
+   [Todo-App-Kotlin-MVVM-Hilt]: <https://github.com/WaheedNazir/TodoKotlinMVVMHilt>
+   [Movies-Android-MVVM-RxJava]: <https://github.com/WaheedNazir/Android-MVVM-RxJava-Movies>
+   [News-Android-MVVM-Kotlin-Hilt]: <https://github.com/WaheedNazir/NewYorkTimesMvvmSample>
+   [Currency-Converter-MVVM]: <https://github.com/WaheedNazir/CurrencyConverter>
 
    
 
